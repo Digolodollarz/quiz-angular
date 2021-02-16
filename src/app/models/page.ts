@@ -1,2 +1,3 @@
-export class Page {
+export class Page<T> {
+  items: T[];
 }

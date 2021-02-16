@@ -1,1 +1,10 @@
-<p>take-quiz works!</p>
+<mat-card class="mb-1" *ngFor="let question of [1,2,3,4,5,6,7,8,9,10]">
+  <mat-card-title class="px-1">1. How old are you?</mat-card-title>
+  <mat-card-content>
+    <mat-selection-list multiple="false">
+      <mat-list-option>Less than 80</mat-list-option>
+      <mat-list-option>Less than 40</mat-list-option>
+      <mat-list-option>Less than 20</mat-list-option>
+    </mat-selection-list>
+  </mat-card-content>
+</mat-card>

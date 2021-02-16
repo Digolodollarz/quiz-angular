@@ -11,6 +11,12 @@ import {AppRoutingModule} from './app-routing.module';
 import {ResultsComponent} from './results/results.component';
 import {DashboardComponent} from './dashboard/dashboard.component';
 import {MatSliderModule} from '@angular/material/slider';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import {MatListModule} from '@angular/material/list';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -26,6 +32,12 @@ import {MatSliderModule} from '@angular/material/slider';
     BrowserAnimationsModule,
     AppRoutingModule,
 
+    MatToolbarModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatButtonModule,
+    MatCardModule,
+    MatListModule,
     MatSliderModule,
   ],
   providers: [],
